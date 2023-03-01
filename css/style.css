@@ -1,0 +1,197 @@
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --clr-primery: lightgray;
+    --clr-secondary: gray;
+    --clr-higlight: limegreen;
+    font-size: 62.5%;
+
+
+}
+
+body {
+    background-color: rgb(160, 158, 158);
+    font-size: 1.2rem;
+    /* max-width: 190rem; */
+}
+
+nav {
+    background-color: var(--clr-secondary);
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+}
+
+.logo {
+    display: flex;
+    font-size: 2.5rem;
+    text-align: center;
+
+}
+
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+    align-items: center;
+    margin: 0 -12rem 0 0;
+}
+
+li {
+    list-style: none;
+}
+
+
+a {
+    display: flex;
+    text-align: 5px;
+    text-decoration: none;
+    letter-spacing: .2rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+
+}
+
+
+.burger {
+
+}
+
+
+.title {
+    width: 100%;
+    position: absolute;
+    top: 35%;
+
+}
+
+
+.welcome {
+    margin-left: 20rem;
+    font-size: 3rem;
+}
+
+
+.name {
+    text-align: center;
+    font-size: 4rem;
+}
+
+.moto {
+    margin-left: 82.5rem;
+    font-size: 3rem;
+}
+
+
+.info {
+    width: 80%;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 2rem;
+}
+
+
+
+.hero-btn {
+    display: inline-block;
+    text-decoration: none;
+    color: aliceblue;
+    border: .1rem solid rgb(240 248 255);
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    margin-top: 3rem;
+
+}.hero-btn:hover {
+    border: .1rem solid limegreen;
+    background: limegreen;
+    transition: 1s;
+}
+
+
+@media (max-width: 600px) {
+
+    .title{
+        top: 20%;
+        
+    }
+
+    .welcome {
+        font-size: 1rem;
+        margin-left: auto;
+        justify-content: center;
+        text-align: center;
+
+    }
+
+    .name {
+        font-size: 1.5rem;
+        /* margin: auto; */
+        /* text-align: center; */
+    }
+
+    .moto {
+        font-size: 1rem;
+        margin-left: auto;
+        text-align: center;
+    }
+}
+
+
+
+
+
+.col_img{
+    display: flex;
+    margin-top: 65rem;
+    justify-content: center;
+    
+    
+}
+
+.dsc{
+    position: relative;
+    text-align: center;
+}
+
+
+.imag1{
+    height: 450px;
+    padding: .5rem;
+}
+
+
+.standre-room{
+    display: flex;
+    align-items: center;
+} 
+
+.r-2{
+    height: 400px;
+    margin-top: 10rem;
+    margin-left: 10.5rem;
+}
+
+
+.information{
+    background-color: red;    
+}
+.standerd{
+
+    position: absolute;
+    text-align: center;
+    align-items: center;
+}
+p{
+    position: relative;
+}
